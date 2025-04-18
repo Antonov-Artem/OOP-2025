@@ -10,7 +10,7 @@ enum BargeState {
 };
 
 class Barge {
-    const int MAX_MILEAGE = 100;
+    const int MAX_MILEAGE = 100; // максимально припустимий пробіг
 
     int _imo_number;    // унікальний ідентифікатор судна
     char *_home_port;   // порт приписки
